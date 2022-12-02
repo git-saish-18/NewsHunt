@@ -1,0 +1,117 @@
+
+body{
+    background-color: black;
+}
+/* Label of dark mode light mode */
+lable {
+    position: relative;
+    left: 56rem;
+}
+
+/* Newhunt header */
+#gold{
+    color: gold;
+}
+
+/* Radio btn */
+
+#radiobtn{
+    position: relative;
+    left:56rem;
+    background-color: white;
+}
+
+/* Marquee Headline */
+
+marquee{
+    color: chartreuse;
+}
+
+ /* for News image  */
+img.img {
+    width: 18rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+
+}
+
+/* for overall news card */
+
+.cardX {
+    border: 5px gold solid;
+    padding: 11px;
+    background-image:url("15259.jpg");
+    margin-left: 1rem;
+    color: white;
+}
+
+/* for all news card */
+
+.main {
+    display: inline-block;
+    width: 31rem;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+/* for highlight Names of card  */
+
+h3,.name{
+    color: red;
+    text-shadow: 2px;
+    text-decoration: solid;
+}
+
+/* for card present in each rows */
+
+div#fetching {
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+/* text in card */
+
+.title{
+    font-size: 1.25rem;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+
+@media (max-width:800px){
+   
+    /* for all news card */
+    .main {
+        margin: 1rem 0rem 1rem 0rem;
+        width: 24rem;
+     
+    }
+    /* for card present in each rows */
+    div#fetching {
+        margin: 0rem 0.5rem 0rem 0.5rem;
+    }
+    
+     /* for News image  */
+    img.img {
+        width: 16rem;
+        margin: 2rem;
+    
+    }
+    /* Marquee Headline */
+    marquee {
+        color: chartreuse;
+        font-size: 1.5rem;
+    }
+    /* Label of dark mode light mode */
+    lable {
+        position: relative;
+        left: 0rem;
+        font-size: 16px;
+        font-style: italic;
+    }
+    /* For radio button */
+    #radiobtn{
+        position: relative;
+        left: 0rem;
+        background-color: white;
+    }
+}
